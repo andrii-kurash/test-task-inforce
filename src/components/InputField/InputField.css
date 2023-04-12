@@ -1,0 +1,48 @@
+.button{
+  background-color: rgb(203, 148, 255);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 15px 40px;
+  cursor: pointer;
+  font-family: monospace;
+  border-radius: 25px;
+}
+.button:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.button-confirm {
+  background-color: rgb(120, 196, 139);
+}
+
+.button-cancel {
+  background-color: rgb(255, 136, 136);
+}
+
+.inputs-wrapper{
+  margin: 0 auto;
+  display: block;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 50px;
+  border-style: none;
+  border: 1px solid rgb(151, 151, 151);
+  margin: 5px;
+}
+
+input:hover {
+  cursor: pointer;
+  color: rgb(122, 122, 122);
+  border-color: rgb(90, 90, 90);
+  transition: all 0.5s;
+}
